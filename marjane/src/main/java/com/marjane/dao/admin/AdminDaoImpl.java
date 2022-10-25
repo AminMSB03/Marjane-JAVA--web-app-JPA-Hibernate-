@@ -1,12 +1,14 @@
 package com.marjane.dao.admin;
 
 import com.marjane.entities.Admin;
-import jakarta.persistence.EntityManager;
-import jakarta.persistence.EntityManagerFactory;
-import jakarta.persistence.EntityTransaction;
-import jakarta.persistence.Persistence;
+import com.speedment.jpastreamer.application.JPAStreamer;
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.EntityTransaction;
+import javax.persistence.Persistence;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class AdminDaoImpl implements IAdminDao{
 
@@ -47,7 +49,9 @@ public class AdminDaoImpl implements IAdminDao{
     }
 
     @Override
-    public List<Admin> findAll(Admin admin) {
-        return null;
+    public List<Admin> findAll() {
+        JPAStreamer jpaStreamer = JPAStreamer.of("connect");
+        return jpaStreamer.stream(Admin.class)
+                .collect(Collectors.toList());
     }
 }

@@ -1,20 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="marjane:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bc9ad4-6ac9-4ee6-a036-1383b74177f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/.idea/jpa-buddy.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../marjaneApp/src/main/webapp/index.jsp" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/AdminGenDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/IAdminGenDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/IPromotionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/PromotionDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/helpers/Encryptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/AdminGenBusImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/AdminGenBusImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/IAdminGenBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/IAdminGenBus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/AdminDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/IAdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/IAdminDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/AdminGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/AdminGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Center.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Center.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/ChefRayon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/ChefRayon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/AdminBusImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/IAdminBus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/AdminDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/IAdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/IAdminDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Admin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/AdminGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/AdminGen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Center.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Center.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/ChefRayon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/ChefRayon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Promotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Promotion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/presentation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/presentation/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +59,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/com/speedment/jpastreamer/application/1.0.2/application-1.0.2-sources.jar!/com/speedment/jpastreamer/application/JPAStreamer.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
       <map>
@@ -44,9 +74,16 @@
       <map>
         <entry key="com.haulmont.jpb.jpaInspector" value="false" />
         <entry key="com.haulmont.jpb.jpaPalette" value="false" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,7 +113,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.marjane.presentation.Main" />
       <module name="marjane" />
@@ -90,6 +127,98 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="marjane:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/marjane_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="7cbefbf0-7857-4c2b-8f35-3b5eb38eb676" />
+        <option name="HTTP_PORT" value="8090" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56780" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="marjane:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.65" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -122,5 +251,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/marjane/helpers/JPAStreamer.java</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
