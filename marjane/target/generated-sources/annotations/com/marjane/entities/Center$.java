@@ -16,6 +16,33 @@ import java.util.List;
 public final class Center$ {
     
     /**
+     * This Field corresponds to the {@link Center} field "chefRayons".
+     */
+    public static final ReferenceField<Center, List<ChefRayon>> chefRayons = ReferenceField.create(
+        Center.class,
+        "chefRayons",
+        Center::getChefRayons,
+        false
+    );
+    /**
+     * This Field corresponds to the {@link Center} field "admin".
+     */
+    public static final ReferenceField<Center, Admin> admin = ReferenceField.create(
+        Center.class,
+        "admin",
+        Center::getAdmin,
+        false
+    );
+    /**
+     * This Field corresponds to the {@link Center} field "ville".
+     */
+    public static final StringField<Center> ville = StringField.create(
+        Center.class,
+        "ville",
+        Center::getVille,
+        false
+    );
+    /**
      * This Field corresponds to the {@link Center} field "promotions".
      */
     public static final ReferenceField<Center, List<Promotion>> promotions = ReferenceField.create(
@@ -31,33 +58,6 @@ public final class Center$ {
         Center.class,
         "id",
         Center::getId,
-        false
-    );
-    /**
-     * This Field corresponds to the {@link Center} field "chefRayons".
-     */
-    public static final ReferenceField<Center, List<ChefRayon>> chefRayons = ReferenceField.create(
-        Center.class,
-        "chefRayons",
-        Center::getChefRayons,
-        false
-    );
-    /**
-     * This Field corresponds to the {@link Center} field "ville".
-     */
-    public static final StringField<Center> ville = StringField.create(
-        Center.class,
-        "ville",
-        Center::getVille,
-        false
-    );
-    /**
-     * This Field corresponds to the {@link Center} field "admin".
-     */
-    public static final ReferenceField<Center, Admin> admin = ReferenceField.create(
-        Center.class,
-        "admin",
-        Center::getAdmin,
         false
     );
 }

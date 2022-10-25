@@ -17,24 +17,6 @@ import java.util.Date;
 public final class Promotion$ {
     
     /**
-     * This Field corresponds to the {@link Promotion} field "center".
-     */
-    public static final ReferenceField<Promotion, Center> center = ReferenceField.create(
-        Promotion.class,
-        "center",
-        Promotion::getCenter,
-        false
-    );
-    /**
-     * This Field corresponds to the {@link Promotion} field "category".
-     */
-    public static final ReferenceField<Promotion, Category> category = ReferenceField.create(
-        Promotion.class,
-        "category",
-        Promotion::getCategory,
-        false
-    );
-    /**
      * This Field corresponds to the {@link Promotion} field "id".
      */
     public static final LongField<Promotion> id = LongField.create(
@@ -53,12 +35,30 @@ public final class Promotion$ {
         false
     );
     /**
+     * This Field corresponds to the {@link Promotion} field "category".
+     */
+    public static final ReferenceField<Promotion, Category> category = ReferenceField.create(
+        Promotion.class,
+        "category",
+        Promotion::getCategory,
+        false
+    );
+    /**
      * This Field corresponds to the {@link Promotion} field "promo".
      */
     public static final ComparableField<Promotion, Double> promo = ComparableField.create(
         Promotion.class,
         "promo",
         Promotion::getPromo,
+        false
+    );
+    /**
+     * This Field corresponds to the {@link Promotion} field "center".
+     */
+    public static final ReferenceField<Promotion, Center> center = ReferenceField.create(
+        Promotion.class,
+        "center",
+        Promotion::getCenter,
         false
     );
     /**

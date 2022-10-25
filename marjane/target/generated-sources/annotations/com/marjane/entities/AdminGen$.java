@@ -16,6 +16,15 @@ import java.util.List;
 public final class AdminGen$ {
     
     /**
+     * This Field corresponds to the {@link AdminGen} field "adminList".
+     */
+    public static final ReferenceField<AdminGen, List<Admin>> adminList = ReferenceField.create(
+        AdminGen.class,
+        "adminList",
+        AdminGen::getAdminList,
+        false
+    );
+    /**
      * This Field corresponds to the {@link AdminGen} field "adminId".
      */
     public static final LongField<AdminGen> adminId = LongField.create(
@@ -40,15 +49,6 @@ public final class AdminGen$ {
         AdminGen.class,
         "password",
         AdminGen::getPassword,
-        false
-    );
-    /**
-     * This Field corresponds to the {@link AdminGen} field "adminList".
-     */
-    public static final ReferenceField<AdminGen, List<Admin>> adminList = ReferenceField.create(
-        AdminGen.class,
-        "adminList",
-        AdminGen::getAdminList,
         false
     );
 }

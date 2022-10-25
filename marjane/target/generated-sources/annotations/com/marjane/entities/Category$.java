@@ -16,21 +16,21 @@ import java.util.List;
 public final class Category$ {
     
     /**
-     * This Field corresponds to the {@link Category} field "name".
-     */
-    public static final StringField<Category> name = StringField.create(
-        Category.class,
-        "name",
-        Category::getName,
-        false
-    );
-    /**
      * This Field corresponds to the {@link Category} field "id".
      */
     public static final LongField<Category> id = LongField.create(
         Category.class,
         "id",
         Category::getId,
+        false
+    );
+    /**
+     * This Field corresponds to the {@link Category} field "name".
+     */
+    public static final StringField<Category> name = StringField.create(
+        Category.class,
+        "name",
+        Category::getName,
         false
     );
     /**

@@ -5,7 +5,6 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.Date;
-import java.util.List;
 
 @Entity
 @Data
@@ -16,6 +15,7 @@ public class Promotion {
     private long id;
     private Date date;
     private Double promo;
+    @Column(columnDefinition = "int default 0")
     private int status;
 
 

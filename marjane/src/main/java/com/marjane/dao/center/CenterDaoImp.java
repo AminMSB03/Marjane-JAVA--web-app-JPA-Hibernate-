@@ -1,21 +1,23 @@
-package com.marjane.dao.category;
+package com.marjane.dao.center;
 
 
 import com.marjane.entities.Category;
 import com.marjane.entities.Category$;
+import com.marjane.entities.Center;
+import com.marjane.entities.Center$;
 import com.speedment.jpastreamer.application.JPAStreamer;
 
 import java.util.Optional;
 
-public class CategoryDaoImp implements ICategoryDao{
+public class CenterDaoImp implements ICenterDao {
 
 
     @Override
-    public Optional<Category> find(Long id) {
+    public Optional<Center> find(Long id) {
         JPAStreamer jpaStreamer =JPAStreamer.of("connect");
-        Optional<Category> category =  jpaStreamer.stream(Category.class)
-                .filter(Category$.id.equal(id))
+        Optional<Center> center =  jpaStreamer.stream(Center.class)
+                .filter(Center$.id.equal(id))
                 .findAny();
-        return category;
+        return center;
     }
 }

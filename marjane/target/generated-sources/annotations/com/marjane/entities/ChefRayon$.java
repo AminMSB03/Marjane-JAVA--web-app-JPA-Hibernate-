@@ -14,6 +14,15 @@ import com.speedment.jpastreamer.field.StringField;
 public final class ChefRayon$ {
     
     /**
+     * This Field corresponds to the {@link ChefRayon} field "password".
+     */
+    public static final StringField<ChefRayon> password = StringField.create(
+        ChefRayon.class,
+        "password",
+        ChefRayon::getPassword,
+        false
+    );
+    /**
      * This Field corresponds to the {@link ChefRayon} field "id".
      */
     public static final ComparableField<ChefRayon, Long> id = ComparableField.create(
@@ -29,15 +38,6 @@ public final class ChefRayon$ {
         ChefRayon.class,
         "email",
         ChefRayon::getEmail,
-        false
-    );
-    /**
-     * This Field corresponds to the {@link ChefRayon} field "password".
-     */
-    public static final StringField<ChefRayon> password = StringField.create(
-        ChefRayon.class,
-        "password",
-        ChefRayon::getPassword,
         false
     );
     /**

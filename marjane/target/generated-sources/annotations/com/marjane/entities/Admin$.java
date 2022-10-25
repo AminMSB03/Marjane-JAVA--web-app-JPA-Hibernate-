@@ -14,24 +14,6 @@ import com.speedment.jpastreamer.field.StringField;
 public final class Admin$ {
     
     /**
-     * This Field corresponds to the {@link Admin} field "password".
-     */
-    public static final StringField<Admin> password = StringField.create(
-        Admin.class,
-        "password",
-        Admin::getPassword,
-        false
-    );
-    /**
-     * This Field corresponds to the {@link Admin} field "adminGen".
-     */
-    public static final ReferenceField<Admin, AdminGen> adminGen = ReferenceField.create(
-        Admin.class,
-        "adminGen",
-        Admin::getAdminGen,
-        false
-    );
-    /**
      * This Field corresponds to the {@link Admin} field "id".
      */
     public static final LongField<Admin> id = LongField.create(
@@ -41,12 +23,30 @@ public final class Admin$ {
         false
     );
     /**
+     * This Field corresponds to the {@link Admin} field "password".
+     */
+    public static final StringField<Admin> password = StringField.create(
+        Admin.class,
+        "password",
+        Admin::getPassword,
+        false
+    );
+    /**
      * This Field corresponds to the {@link Admin} field "email".
      */
     public static final StringField<Admin> email = StringField.create(
         Admin.class,
         "email",
         Admin::getEmail,
+        false
+    );
+    /**
+     * This Field corresponds to the {@link Admin} field "adminGen".
+     */
+    public static final ReferenceField<Admin, AdminGen> adminGen = ReferenceField.create(
+        Admin.class,
+        "adminGen",
+        Admin::getAdminGen,
         false
     );
 }
