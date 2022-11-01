@@ -10,144 +10,110 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="47bc9ad4-6ac9-4ee6-a036-1383b74177f0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/admin/AdminBusImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/admin/IAdminBus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/AdminGenDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/IAdminGenDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/category/CategoryDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/category/ICategoryDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/center/CenterDaoImp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/center/ICenterDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/IPromotionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/PromotionDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/helpers/Encryptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/AdminGenBusImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/IAdminGenBus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/adminGen/AdminGenDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/adminGen/IAdminGenDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/promotion/IPromotionDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/promotion/PromotionDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Admin$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/AdminGen$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Category$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Center$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/ChefRayon$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Promotion$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/helpers/Encryptor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/marjane/presentation/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Admin$.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/AdminGen$.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Category$.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Center$.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/ChefRayon$.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Promotion$.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/business/adminGen/AdminGenBusImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/business/adminGen/IAdminGenBus.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/dao/admin/AdminDaoImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/dao/admin/IAdminDao.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Admin$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Admin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/AdminGen$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/AdminGen.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Category$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Category.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Center$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Center.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/ChefRayon$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/ChefRayon.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Promotion$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Promotion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/presentation/LoginController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/presentation/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/FastInfoset-1.2.15.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/analytics-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/analytics-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/announcer-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/appinfo-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/appinfo-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/application-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/application-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/auto-service-annotations-1.0.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/autoclose-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/autoclose-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/builder-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/builder-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/byte-buddy-1.12.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/checker-qual-3.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/classmate-1.5.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/codegen-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/criteria-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/criteria-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/exception-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/field-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/fieldgenerator-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/function-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/hibernate-commons-annotations-5.1.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/hibernate-core-5.6.12.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/interopoptimizer-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/interopoptimizer-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/invariant-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/jandex-2.4.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/javanine-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/jaxb-api-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/jboss-logging-3.4.3.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/jpastreamer-core-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/json-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/lombok-1.18.24.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/merger-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/merger-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/pipeline-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/pipeline-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/projection-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/renderer-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/renderer-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/rest-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/rootfactory-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/runtime-compute-3.2.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/stax-ex-1.8.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/streamconfiguration-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/streamconfiguration-standard-1.1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/tomcat-annotations-api-9.0.64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/tomcat-embed-core-9.0.64.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/lib/txw2-2.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/marjane/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/AdminGenBusImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/chefrayon/ChefRayonBusImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/chefrayon/IChefRayonBus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/Admin/ChefRayon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/Admin/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/Admin/Promos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/AdminGen/AddAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/AdminGen/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/Chef/Home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/Chef/Promo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/authentification/RoleChecker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/AdminGenDaoImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/chefRayon/ChefRayonDaoImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/chefRayon/IChefRayonDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/marjane/helpers/AuthRedirect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/homeDashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/admin/promos.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/adminGen/statistics.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/chef/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f35f7f43-ce3a-4ee4-9e70-3e967c177be0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f35f7f43-ce3a-4ee4-9e70-3e967c177be0/storage_v2/_src_/database/marjane.jG8FMg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f35f7f43-ce3a-4ee4-9e70-3e967c177be0/storage_v2/_src_/database/marjane.jG8FMg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f35f7f43-ce3a-4ee4-9e70-3e967c177be0/storage_v2/_src_/database/marjane.jG8FMg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f35f7f43-ce3a-4ee4-9e70-3e967c177be0/storage_v2/_src_/database/marjane.jG8FMg/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f35f7f43-ce3a-4ee4-9e70-3e967c177be0/storage_v2/_src_/database/marjane.jG8FMg/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/business/admin/AdminBusImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/admin/AdminBusImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/business/admin/IAdminBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/admin/IAdminBus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/AdminGenBusImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/AdminGenBusImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/IAdminGenBus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/business/adminGen/IAdminGenBus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/AdminDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/AdminDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/IAdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/admin/IAdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/AdminGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/AdminGen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Center.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Center.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/ChefRayon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/ChefRayon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Promotion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/AdminGenDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/AdminGenDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/IAdminGenDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/adminGen/IAdminGenDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/category/CategoryDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/category/CategoryDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/category/ICategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/category/ICategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/center/CenterDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/center/CenterDaoImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/center/ICenterDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/center/ICenterDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/IPromotionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/IPromotionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/PromotionDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/dao/promotion/PromotionDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/module/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/AdminGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/module/AdminGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/module/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Center.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/module/Center.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/ChefRayon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/module/ChefRayon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/entities/Promotion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/module/Promotion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/marjane/controller/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/marjane/presentation/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/AdminBusImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/IAdminBus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/AdminGenBusImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/AdminGenBusImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/IAdminGenBus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/business/adminGen/IAdminGenBus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/AdminDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/IAdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/admin/IAdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/AdminGen.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/AdminGen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Center.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Center.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/ChefRayon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/ChefRayon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Promotion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/entities/Promotion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/presentation/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/presentation/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/adminGen/AdminGenDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/adminGen/AdminGenDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/adminGen/IAdminGenDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/adminGen/IAdminGenDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/promotion/IPromotionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/promotion/IPromotionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/dao/promotion/PromotionDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/marjane/dao/promotion/PromotionDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Admin$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/AdminGen$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/AdminGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Category$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Center$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Center.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/ChefRayon$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/ChefRayon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Promotion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/entities/Promotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/presentation/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/marjane/presentation/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Admin$.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/module/Admin$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/AdminGen$.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/module/AdminGen$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Category$.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/module/Category$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Center$.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/module/Center$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/ChefRayon$.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/module/ChefRayon$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/entities/Promotion$.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/com/marjane/module/Promotion$.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/business/adminGen/AdminGenBusImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/business/adminGen/AdminGenBusImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/business/adminGen/IAdminGenBus.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/business/adminGen/IAdminGenBus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/dao/admin/AdminDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/dao/admin/AdminDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/dao/admin/IAdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/dao/admin/IAdminDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Admin$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Admin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/AdminGen$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/AdminGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Category$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Center$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Center.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/ChefRayon$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/ChefRayon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Promotion$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/entities/Promotion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/presentation/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/classes/com/marjane/presentation/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/marjane/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/marjane/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,6 +124,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Jsp File" />
         <option value="Class" />
       </list>
     </option>
@@ -202,36 +170,58 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Youcode/Desktop/briefs2/Marjane-JAVA--web-app-JPA-Hibernate-/marjane/src/main/java/com/marjane/dao/center",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Youcode/Desktop/briefs2/Marjane-JAVA--web-app-JPA-Hibernate-/marjane/src/main/webapp/views/chef&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Youcode\Desktop\briefs2\Marjane-JAVA--web-app-JPA-Hibernate-\marjane\src\main\webapp\views\chef" />
+      <recent name="C:\Users\Youcode\Desktop\briefs2\Marjane-JAVA--web-app-JPA-Hibernate-\marjane\src\main\webapp\views\admin" />
+      <recent name="C:\Users\Youcode\Desktop\briefs2\Marjane-JAVA--web-app-JPA-Hibernate-\marjane\src\main\java\com\marjane\business\chefrayon" />
+      <recent name="C:\Users\Youcode\Desktop\briefs2\Marjane-JAVA--web-app-JPA-Hibernate-\marjane\src\main\java\com\marjane\dao\chefRayon" />
       <recent name="C:\Users\Youcode\Desktop\briefs2\Marjane-JAVA--web-app-JPA-Hibernate-\marjane\src\main\java\com\marjane\dao\center" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.marjane.dao.adminGen" />
+      <recent name="com.marjane.business.adminGen" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunDashboard">
+    <option name="excludedTypes">
+      <set>
+        <option value="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" />
+      </set>
+    </option>
+    <option name="openRunningConfigInTab" value="true" />
+  </component>
+  <component name="RunManager" selected="Tomcat Server.promo">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.marjane.presentation.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.marjane.controller.Main" />
       <module name="marjane" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.marjane.presentation.*" />
+          <option name="PATTERN" value="com.marjane.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,17 +229,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.65" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="AdminGenDaoImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marjane" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marjane.dao.adminGen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marjane.dao.adminGen" />
+      <option name="MAIN_CLASS_NAME" value="com.marjane.dao.adminGen.AdminGenDaoImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminGenDaoImplTest.getAdminByEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="marjane" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marjane.dao.adminGen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marjane.dao.adminGen" />
+      <option name="MAIN_CLASS_NAME" value="com.marjane.dao.adminGen.AdminGenDaoImplTest" />
+      <option name="METHOD_NAME" value="getAdminByEmail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="promo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.65" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="marjane:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/marjane_war_exploded" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="7cbefbf0-7857-4c2b-8f35-3b5eb38eb676" />
+        <option name="BASE_DIRECTORY_NAME" value="278435d5-b293-4168-aeb5-6ebbbb63c54e" />
         <option name="HTTP_PORT" value="8090" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
@@ -258,7 +279,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56780" />
+        <option name="DEBUG_PORT" value="50337" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -329,11 +350,15 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
-      <item itemvalue="Tomcat Server.Tomcat 9.0.65" />
+      <item itemvalue="JUnit.AdminGenDaoImplTest" />
+      <item itemvalue="JUnit.AdminGenDaoImplTest.getAdminByEmail" />
+      <item itemvalue="Tomcat Server.promo" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.AdminGenDaoImplTest" />
+        <item itemvalue="JUnit.AdminGenDaoImplTest.getAdminByEmail" />
       </list>
     </recent_temporary>
   </component>
@@ -347,6 +372,13 @@
       <updated>1666601615100</updated>
       <workItem from="1666601618477" duration="2640000" />
       <workItem from="1666605501505" duration="12751000" />
+      <workItem from="1666779814283" duration="3580000" />
+      <workItem from="1666787641943" duration="12441000" />
+      <workItem from="1666808219950" duration="8036000" />
+      <workItem from="1666858192179" duration="46316000" />
+      <workItem from="1667045768437" duration="35195000" />
+      <workItem from="1667175308315" duration="769000" />
+      <workItem from="1667204165190" duration="9977000" />
     </task>
     <servers />
   </component>

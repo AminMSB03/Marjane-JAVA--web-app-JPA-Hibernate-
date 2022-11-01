@@ -1,12 +1,12 @@
 package com.marjane.business.adminGen;
 
-import com.marjane.entities.Admin;
+import com.marjane.module.Admin;
+import com.marjane.module.Center;
 
-import java.security.NoSuchAlgorithmException;
 import java.util.List;
 
 public interface IAdminGenBus {
-    public void addAdmin(String email, String password) throws Exception;
+    public void addAdmin(String email, String password,Long idCenter) throws Exception;
 
     public Boolean Login(String email, String password) throws Exception;
 
@@ -15,5 +15,5 @@ public interface IAdminGenBus {
     public void addAdminGen(String email, String password) throws Exception;
 
 
-
+    List<Center> getAllCenters();
 }

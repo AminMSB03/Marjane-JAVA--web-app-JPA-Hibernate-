@@ -1,7 +1,7 @@
 package com.marjane.dao.adminGen;
 
-import com.marjane.entities.AdminGen;
-import com.marjane.entities.AdminGen$;
+import com.marjane.module.AdminGen;
+import com.marjane.module.AdminGen$;
 import com.speedment.jpastreamer.application.JPAStreamer;
 
 import javax.persistence.EntityManager;
@@ -27,10 +27,12 @@ public class AdminGenDaoImpl implements IAdminGenDao{
 
     @Override
     public Optional<AdminGen> getAdminByEmail(String email) {
+
         JPAStreamer jpaStreamer =JPAStreamer.of("connect");
         Optional<AdminGen> adminGen =  jpaStreamer.stream(AdminGen.class)
                 .filter(AdminGen$.email.equal(email))
                 .findAny();
+
         return adminGen;
     }
 
